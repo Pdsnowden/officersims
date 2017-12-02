@@ -1,0 +1,44 @@
+body {
+    padding: 0 !important;
+}
+
+
+/* NAVBAR */
+
+.navbar img {
+    max-height: 65px;
+}
+
+.navbar p {
+    color: white;
+}
+
+.navbar .headertext {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 575px) {
+
+    /* NAVBAR */
+
+    .navbar p {
+        display: none;
+    }
+
+    .navbar .headertext {
+        display: initial;
+        padding-right: 15px;
+    }
+
+
+ }
